@@ -1,4 +1,14 @@
 const removeVowels = (string) => {
+
+    let result = "";
+    const vowels = "aeiou";
+    for(let i = 0; i <string.length; i++) {
+        if(!vowels.includes(string[i].toLowerCase())) {
+            result += string[i]
+        }
+    }
+
+    return result;
 }
 
 console.log(removeVowels("table")); // "tbl"
