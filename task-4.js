@@ -4,6 +4,7 @@ const repeatString = (string, n) => {
         newString += string;
     }
     return newString;
+
 }
 
 console.log(repeatString("table", 3)); // "tabletabletable"

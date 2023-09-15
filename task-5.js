@@ -15,6 +15,7 @@ const removeVowels = (string) => {
     }
 
     return newString;
+
 }
 
 console.log(removeVowels("table")); // "tbl"
