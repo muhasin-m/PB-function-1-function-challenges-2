@@ -1,4 +1,5 @@
 const getIndexOf = function(array, item) {
+    return array.indexOf(item);
 }
 
 console.log(getIndexOf(["apple", "pear", "banana"], "kiwi")); // -1
